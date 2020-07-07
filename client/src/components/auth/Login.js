@@ -59,7 +59,7 @@ export const Login = ({ login, isAuthenticated }) => {
         <input type='submit' className='btn btn-primary' value='Login' />
       </form>
       <p className='my-1'>
-        Don't Have an account<Link to='/register'>Sign UP</Link>
+        Don't Have an account.<Link to='/register'> Sign Up</Link>
       </p>
     </Fragment>
   );
