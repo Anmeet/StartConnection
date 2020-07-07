@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://anmeet619:anmeet619@devconnector-6jldx.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "51150dbd85bf73ec2ede",
+    "githubSecret": "6359b65185ff2abfa263bad6c89abec107c95328"
+  }
+  
