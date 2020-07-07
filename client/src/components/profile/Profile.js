@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Spinner from '../layout/Spinner';
-import { getProfileById} from '../../actions/profile';
+import { getProfileById } from '../../actions/profile';
 import { Link } from 'react-router-dom';
 import ProfileTop from './ProfileTop';
 import ProfileAbout from './ProfileAbout';
@@ -56,7 +56,7 @@ const Profile = ({
             </div>
 
             <div className='profile-edu bg-white p-2'>
-              <h2 className='text-primary'>Experience</h2>
+              <h2 className='text-primary'>Education</h2>
               {profile.education.length > 0 ? (
                 <Fragment>
                   {profile.education.map(education => (
@@ -71,8 +71,9 @@ const Profile = ({
               )}
             </div>
 
-            {profile.githubusername && <ProfileGithub username = {profile.githubusername} /> }
-
+            {profile.githubusername && (
+              <ProfileGithub username={profile.githubusername} />
+            )}
           </div>
         </Fragment>
       )}
