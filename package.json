@@ -1,7 +1,7 @@
 {
-  "name": "devconnector",
+  "name": "startConnection",
   "version": "1.0.0",
-  "description": "Social network for developers",
+  "description": "Create Profile and Posts",
   "main": "server.js",
   "scripts": {
     "start": "node server",
